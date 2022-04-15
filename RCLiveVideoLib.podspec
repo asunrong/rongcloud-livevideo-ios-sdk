@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
     s.homepage     = "https://www.rongcloud.cn/"
         s.license      = { :type => "Copyright", :text => "Copyright 2022 RongCloud" }
-    s.author       = { "shaoshuai" => "https://www.rongcloud.cn/" }
+    s.author       = { "asunshine" => "https://www.rongcloud.cn/" }
     s.social_media_url   = "https://www.rongcloud.cn/"
     # s.source       = { :git => 'https://github.com/asunrong/rongcloud-livevideo-ios-sdk.git', :tag => s.version.to_s }
     s.source         = { :http => yg_zipURl }
