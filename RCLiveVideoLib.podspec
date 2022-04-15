@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
     s.name         = "RCLiveVideoLib"
-    s.version      = "2.1.0.50"
+    s.version      = "2.1.0.60"
     s.summary      = 'live video'
 
 
@@ -11,12 +11,14 @@ Pod::Spec.new do |s|
                         live video dependency IM & RTC
                         DESC
 
+    yg_zipURl="https://asunshinecitic-generic.pkg.coding.net/SpecsRepos/rc_xcframework/#{s.name}?version=#{s.version}"
 
     s.homepage     = "https://www.rongcloud.cn/"
         s.license      = { :type => "Copyright", :text => "Copyright 2022 RongCloud" }
     s.author       = { "shaoshuai" => "https://www.rongcloud.cn/" }
     s.social_media_url   = "https://www.rongcloud.cn/"
-    s.source       = { :git => 'https://github.com/asunrong/rongcloud-livevideo-ios-sdk.git', :tag => s.version.to_s }
+    # s.source       = { :git => 'https://github.com/asunrong/rongcloud-livevideo-ios-sdk.git', :tag => s.version.to_s }
+    s.source           = { :http => yg_zipURl}
     
     s.requires_arc = true
     s.static_framework = true
