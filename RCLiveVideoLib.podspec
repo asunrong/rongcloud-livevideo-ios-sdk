@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.author       = { "shaoshuai" => "https://www.rongcloud.cn/" }
     s.social_media_url   = "https://www.rongcloud.cn/"
     # s.source       = { :git => 'https://github.com/asunrong/rongcloud-livevideo-ios-sdk.git', :tag => s.version.to_s }
-    s.source         = { :https => "https://asunshinecitic-generic.pkg.coding.net/SpecsRepos/rc_xcframework/#{s.name}?version=#{s.version}"}
+    s.source         = { :http => "https://asunshinecitic-generic.pkg.coding.net/SpecsRepos/rc_xcframework/#{s.name}?version=#{s.version}"}
 
     s.requires_arc = true
     s.static_framework = true
