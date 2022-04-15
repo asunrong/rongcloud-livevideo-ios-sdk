@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                         live video dependency IM & RTC
                         DESC
 
-    yg_zipURl="https://asunshinecitic.coding.net/api/team/asunshinecitic/anonymity/artifacts/repositories/13287035/packages/4346058/versions/13890863/file/download?fileName=RCLiveVideoLib.xcframework.zip"
+    yg_zipURl="https://asunshinecitic.coding.net/api/team/asunshinecitic/anonymity/artifacts/repositories/13287035/packages/4346161/versions/13891816/file/download?fileName=RCLiveVideoLib.zip"
 
     s.homepage     = "https://www.rongcloud.cn/"
         s.license      = { :type => "Copyright", :text => "Copyright 2022 RongCloud" }
