@@ -11,14 +11,14 @@ Pod::Spec.new do |s|
                         live video dependency IM & RTC
                         DESC
 
-    yg_zipURl="https://asunshinecitic-generic.pkg.coding.net/SpecsRepos/rc_xcframework/#{s.name}?version=#{s.version}"
+    yg_zipURl="https://asunshinecitic.coding.net/api/team/asunshinecitic/anonymity/artifacts/repositories/13287035/packages/4346024/versions/13890282/file/download?fileName=RCLiveVideoLib.zip"
 
     s.homepage     = "https://www.rongcloud.cn/"
         s.license      = { :type => "Copyright", :text => "Copyright 2022 RongCloud" }
     s.author       = { "shaoshuai" => "https://www.rongcloud.cn/" }
     s.social_media_url   = "https://www.rongcloud.cn/"
     # s.source       = { :git => 'https://github.com/asunrong/rongcloud-livevideo-ios-sdk.git', :tag => s.version.to_s }
-    s.source         = { :http => "https://asunshinecitic-generic.pkg.coding.net/SpecsRepos/rc_xcframework/#{s.name}?version=#{s.version}"}
+    s.source         = { :http => yg_zipURl }
 
     s.requires_arc = true
     s.static_framework = true
