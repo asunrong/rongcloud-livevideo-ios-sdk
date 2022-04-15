@@ -34,12 +34,12 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = 'RCLiveVideoLib.xcframework'
 
     # RCLiveVideoLib.xcframework/ios-arm64/RCLiveVideoLib.framework/Headers
-    s.source_files ="#{s.name}.xcframework/ios-arm64/#{s.name}.framework/Headers/**.h"
+    # s.source_files ="#{s.name}.xcframework/ios-arm64/#{s.name}.framework/Headers/**.h"
     # 给FW添加Headr到XCode展示
-    s.public_header_files = "#{s.name}.xcframework/ios-arm64/#{s.name}.framework/Headers/**.h"
+    # s.public_header_files = "#{s.name}.xcframework/ios-arm64/#{s.name}.framework/Headers/**.h"
     
-     # , "RCLiveVideoLib.xcframework/ios-x86_64-simulator/RCLiveVideoLib.framework/Headers/**.h"
-
+    s.source_files= "Headers/**.h"
+    s.public_header_files = "Headers/**.h"
     s.dependency 'RongCloudRTC/RongRTCLib'
     s.dependency 'RongCloudIM/IMLib'
 
